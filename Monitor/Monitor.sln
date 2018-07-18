@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitor", "Monitor\Monitor.csproj", "{53F53DFD-7EE7-46D8-AEDD-0B2D3E27B15D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricExchangeTools", "..\MetricExchangeTools\MetricExchangeTools.csproj", "{44B426D5-BAE6-4336-9956-79BA897AC80E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53F53DFD-7EE7-46D8-AEDD-0B2D3E27B15D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F53DFD-7EE7-46D8-AEDD-0B2D3E27B15D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F53DFD-7EE7-46D8-AEDD-0B2D3E27B15D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F53DFD-7EE7-46D8-AEDD-0B2D3E27B15D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B426D5-BAE6-4336-9956-79BA897AC80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B426D5-BAE6-4336-9956-79BA897AC80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B426D5-BAE6-4336-9956-79BA897AC80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B426D5-BAE6-4336-9956-79BA897AC80E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D74762A1-6CCF-4B55-BD38-42B6AF2A5618}
+	EndGlobalSection
+EndGlobal

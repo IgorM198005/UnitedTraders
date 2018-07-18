@@ -1,0 +1,10 @@
+C:\Users\Игорь\source\repos\United Traders\Sensor\Sensor\bin\Debug\Sensor.exe.config
+C:\Users\Игорь\source\repos\United Traders\Sensor\Sensor\bin\Debug\Sensor.exe
+C:\Users\Игорь\source\repos\United Traders\Sensor\Sensor\bin\Debug\Sensor.pdb
+C:\Users\Игорь\source\repos\United Traders\Sensor\Sensor\obj\Debug\Sensor.csprojResolveAssemblyReference.cache
+C:\Users\Игорь\source\repos\United Traders\Sensor\Sensor\obj\Debug\Sensor.csproj.CoreCompileInputs.cache
+C:\Users\Игорь\source\repos\United Traders\Sensor\Sensor\obj\Debug\Sensor.exe
+C:\Users\Игорь\source\repos\United Traders\Sensor\Sensor\obj\Debug\Sensor.pdb
+C:\Users\Игорь\source\repos\United Traders\Sensor\Sensor\bin\Debug\MetricExchangeTools.dll
+C:\Users\Игорь\source\repos\United Traders\Sensor\Sensor\bin\Debug\MetricExchangeTools.pdb
+C:\Users\Игорь\source\repos\United Traders\Sensor\Sensor\obj\Debug\Sensor.csproj.CopyComplete

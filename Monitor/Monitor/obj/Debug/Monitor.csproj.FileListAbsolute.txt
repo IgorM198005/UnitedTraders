@@ -1,0 +1,10 @@
+C:\Users\Игорь\source\repos\United Traders\Monitor\Monitor\bin\Debug\Monitor.exe.config
+C:\Users\Игорь\source\repos\United Traders\Monitor\Monitor\bin\Debug\Monitor.exe
+C:\Users\Игорь\source\repos\United Traders\Monitor\Monitor\bin\Debug\Monitor.pdb
+C:\Users\Игорь\source\repos\United Traders\Monitor\Monitor\obj\Debug\Monitor.csproj.CoreCompileInputs.cache
+C:\Users\Игорь\source\repos\United Traders\Monitor\Monitor\obj\Debug\Monitor.exe
+C:\Users\Игорь\source\repos\United Traders\Monitor\Monitor\obj\Debug\Monitor.pdb
+C:\Users\Игорь\source\repos\United Traders\Monitor\Monitor\obj\Debug\Monitor.csprojResolveAssemblyReference.cache
+C:\Users\Игорь\source\repos\United Traders\Monitor\Monitor\bin\Debug\MetricExchangeTools.dll
+C:\Users\Игорь\source\repos\United Traders\Monitor\Monitor\bin\Debug\MetricExchangeTools.pdb
+C:\Users\Игорь\source\repos\United Traders\Monitor\Monitor\obj\Debug\Monitor.csproj.CopyComplete

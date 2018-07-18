@@ -1,0 +1,6 @@
+C:\Users\Игорь\source\repos\United Traders\MetricExchangeTools\bin\Debug\MetricExchangeTools.dll
+C:\Users\Игорь\source\repos\United Traders\MetricExchangeTools\bin\Debug\MetricExchangeTools.pdb
+C:\Users\Игорь\source\repos\United Traders\MetricExchangeTools\obj\Debug\MetricExchangeTools.csprojResolveAssemblyReference.cache
+C:\Users\Игорь\source\repos\United Traders\MetricExchangeTools\obj\Debug\MetricExchangeTools.csproj.CoreCompileInputs.cache
+C:\Users\Игорь\source\repos\United Traders\MetricExchangeTools\obj\Debug\MetricExchangeTools.dll
+C:\Users\Игорь\source\repos\United Traders\MetricExchangeTools\obj\Debug\MetricExchangeTools.pdb
