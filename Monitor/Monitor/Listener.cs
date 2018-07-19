@@ -15,9 +15,11 @@ namespace Monitor
         private readonly IPEndPoint _endPoint;
         private TcpListener _tcpListener;
         private readonly IErrorProvider _errorProvider;
+        private readonly TimeSpan _interval;
 
-        public Listener(IPEndPoint endPoint, IErrorProvider errorProvider)
+        public Listener(IPEndPoint endPoint, IErrorProvider errorProvider, TimeSpan interval)
         {
+            _interval = interval;
             _errorProvider = errorProvider ?? throw new ArgumentNullException(nameof(errorProvider));
             _endPoint = endPoint ?? throw new ArgumentNullException(nameof(endPoint));                        
         }
@@ -32,7 +34,7 @@ namespace Monitor
         private void AcceptTcpClientCallback(IAsyncResult ar)
         {
             var incomingClient = _tcpListener.EndAcceptTcpClient(ar);
-            new Session(incomingClient, _errorProvider).BeginRead();
+            new Session(incomingClient, _errorProvider, _interval).BeginRead();
             _tcpListener.BeginAcceptTcpClient(AcceptTcpClientCallback, _tcpListener);
         }
     }

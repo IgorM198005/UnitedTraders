@@ -17,9 +17,11 @@ namespace Monitor
         private readonly NetworkStream _stream;
         private readonly TcpClient _client;
         private readonly IErrorProvider _errorProvider;
+        private readonly TimeSpan _interval;
 
-        public Session(TcpClient client, IErrorProvider errorProvider)
+        public Session(TcpClient client, IErrorProvider errorProvider, TimeSpan interval)
         {
+            _interval = interval + interval;
             _errorProvider = errorProvider ?? throw new ArgumentNullException(nameof(errorProvider));
             _client = client ?? throw new ArgumentNullException(nameof(client));
             _stream = client.GetStream();
@@ -38,7 +40,7 @@ namespace Monitor
             try
             {
                 var ar = _stream.BeginRead(_bytes, 0, _bytes.Length, null, null);
-                ThreadPool.RegisterWaitForSingleObject(ar.AsyncWaitHandle, EndRead, ar, TimeSpan.FromSeconds(6), true);
+                ThreadPool.RegisterWaitForSingleObject(ar.AsyncWaitHandle, EndRead, ar, _interval, true);
                 forceClose = false;
             }
             catch (IOException e)

@@ -16,7 +16,7 @@ namespace Monitor
         static void Main(string[] args)
         {
             var endPoint = IpValidationHelper.Parse(args);
-            new Listener(endPoint, new ErrorProvider()).Start();
+            new Listener(endPoint, new ErrorProvider(), MetricEnvironment.Interval).Start();
             Console.ReadKey();
         }
     }
